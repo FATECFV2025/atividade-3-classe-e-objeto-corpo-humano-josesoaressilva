@@ -22,8 +22,20 @@ public class App {
 
         System.out.printf(v2+" "+v1);
     }
+    /**
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
-        funcao_teste();
+        CorpoHumano c1 = new CorpoHumano(0,0,0,0);
+        int massa = 0;
+        c1.setMassa(massa);
+        int volume = 0;
+        c1.setVolume(volume);
+        int altura = 0;
+        c1.setAltura(altura);
+        int peso = 0;
+        c1.setPeso(peso);
 
 
     }
